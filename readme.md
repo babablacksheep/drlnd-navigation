@@ -42,3 +42,5 @@ Navigate to the folder where you've downloaded the project files and run the com
 
 Follow the instructions in the notebook. If you do run into some errors regarding the Unity environment, try restarting the kernel.
 
+To jump straight to training the agent first run the code in section 1, and then jump to section 4.
+
