@@ -2,6 +2,8 @@
 
 In this project we will attempt to train an agent to solve a yellow banana collecting environment. The environment consists of randomly located yellow and blue bananas, located atop a bounded square plane.
 
+This environment is implemented in Unity.
+
 ![agent animation](agent_behavior.gif)
 
 ##### Rewards
