@@ -16,7 +16,21 @@ This modification involves the use of a separate network whose weights are not u
 
 Both of these modifications help stabilize the network during training.
 
+### Parameters
 The neural network used is a simple two-hidden layer network with ReLU activation. Each hidden layer has 64 units.
+
+Here is the description of the network
+
+Hidden Layer 1 - 64 units, ReLU activation
+Hidden Layer 2 - 64 units, ReLU activation
+
+Using 32 units in the hidden layers took substantially longer to solve the environment. Using 128 units took roughly the same number of episodes, and so 64 units seemed to be a good choice for the layer sizes.
+
+The other parameters involved were
+* Gamma (Discount Factor) which was set to 0.99 which is a good default value to use
+* The target network is updated every 4 time steps
+* The learning rate for training the neural network is set to 0.0005
+* Tau - The soft update parameter for updating the target network is set to 0.001. This parameter is used to linearly interpolate from the target networks current weights to the local networks factor. This helps the target values change smoothly over time.
 
 
 
