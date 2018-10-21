@@ -2,8 +2,6 @@
 
 ## Learning Algorithm
 
-<!-- The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks. -->
-
 The algorithm used to create the agent is Deep Q Learning, which first rose to prominence when it was used to successfully play a number of Atari games ([Original DQN Paper](https://deepmind.com/research/dqn/))
 
 The basic task of Q-Learning is to come up with an estimate of the values for each state-action pair. Deep Q Learning uses a neural network to come up with a function that approximates this table. 
@@ -23,16 +21,13 @@ The neural network used is a simple two-hidden layer network with ReLU activatio
 
 
 ## Plot of Rewards
-<!-- 
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment. -->
 
-The following plots shows the rewards per episode. The agent was able to verage a reward of +13 over 100 episodes, after training for around 550 episodes.
+The following plots shows the rewards per episode. The agent was able to average a reward of +13 over 100 episodes, after training for 551 episodes.
 
 ![score graph](score_graph.png)
 
-## Ideas for Future Work
 
-<!-- The submission has concrete future ideas for improving the agent's performance. -->
+## Ideas for Future Work
 
 There are at least two immediate avenues for future work
 
