@@ -21,8 +21,8 @@ The neural network used is a simple two-hidden layer network with ReLU activatio
 
 Here is the description of the network
 
-Hidden Layer 1 - 64 units - ReLU activation
-Hidden Layer 2 - 64 units - ReLU activation
+Hidden Layer 1 - 64 units, ReLU activation
+Hidden Layer 2 - 64 units, ReLU activation
 
 Using 32 units in the hidden layers took substantially longer to solve the environment. Using 128 units took roughly the same number of episodes, and so 64 units seemed to be a good choice for the layer sizes. 
 
